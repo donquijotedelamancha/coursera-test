@@ -1,11 +1,14 @@
 /*Base styles*/
 
+
+/*to make sure we reset browser settings*/
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
 
+/*styles to all text*/
 body {	
 	font-family: "Comic Sans MS", Geneva, sans-serif;	
 	color: maroon;		
@@ -17,11 +20,7 @@ h1 {
 	margin: 2%;
 }
 
-.row {
-	width: 100%;
-	height: 100%;
-}
-
+/*In order to target each section box*/
 .row > div {	
 	background-color: #e0e0d1;
 	border: 1px solid black;
@@ -31,6 +30,7 @@ h1 {
 .section-title {	
 	font-size: 125%;
 	text-align: center;
+	padding: 3px;
 	width: 50%;
 	border: 1px solid black;
 	color: black;
@@ -40,6 +40,7 @@ h1 {
 	left: 50%;
 }
 
+/*target section title by id in order to customize color*/
 #section-title-1 {
 	background-color: #ffc266;
 }
@@ -49,7 +50,6 @@ h1 {
 #section-title-3 {
 	background-color: #ffff4d;
 }
-
 
 .section-content {
 	padding: 10px;
