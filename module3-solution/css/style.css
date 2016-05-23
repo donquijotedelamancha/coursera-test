@@ -1,101 +1,26 @@
-/*Base styles*/
-
-
-/*to make sure we reset browser settings*/
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+.navbar-brand {
+	font-size: 200%
 }
 
-/*styles to all text*/
-body {	
-	font-family: "Comic Sans MS", Geneva, sans-serif;	
-	color: maroon;		
-}
-
-h1 {
-	font-size: 175%;
-	text-align: center;
-	margin: 2%;
-}
-
-/*In order to target each section box*/
-.row > div {	
-	background-color: #e0e0d1;
-	border: 1px solid black;
-	
-}
-
-.section-title {	
-	font-size: 125%;
-	text-align: center;
-	padding: 3px;
-	width: 50%;
-	border: 1px solid black;
+#nav-list a {
+	background-color: orange;
 	color: black;
-	font-weight: bold;	
-	position: relative;
-	top: 0%;
-	left: 50%;
+	text-align: center;
+}
+#nav-list a:hover {
+	background-color: white;
 }
 
-/*target section title by id in order to customize color*/
-#section-title-1 {
-	background-color: #ffc266;
-}
-#section-title-2 {
-	background-color: #ff9900;
-}
-#section-title-3 {
-	background-color: #ffff4d;
+#theRow {
+	height: 1000px;	
+	background-color: yellow;
+	margin: 15px;	
 }
 
-.section-content {
-	padding: 10px;
+#theSectionTitle {
+	margin: 15px;	
+	font-size: 150%;
 }
-
-/*Large devices*/
-@media (min-width: 992px) {
-	.col-lg-4 {
-		float: left;
-		width: 30.66%;	
-		height: 180px;		
-		overflow: hidden;
-		margin-left: 2%;
-		margin-bottom: 2%;
-	}
+#theSectionContent {
+	margin: 15px;	
 }
-
-/*Tablet*/
-@media (min-width: 768px) and (max-width: 991px) {		
-	.col-md-6 {
-		float: left;
-		width: 45.5%;
-		height: 160px;
-		overflow: hidden;
-		margin-left: 3%;
-		margin-bottom: 2%;
-	}	
-	.col-md-12 {
-		float: left;
-		width: 94%;
-		height: 160px;
-		overflow: hidden;
-		margin-left: 3%;
-		margin-bottom: 2%;
-	}
-}
-
-/*Small devices*/
-@media  (max-width: 767px) {	
-	.col-sm-12 {
-		float: left;
-		width: 90%;
-		height: 200px;
-		overflow: hidden;
-		margin-left: 5%;
-		margin-bottom: 2%;
-	}
-}
-
